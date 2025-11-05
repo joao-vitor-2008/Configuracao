@@ -1,3 +1,5 @@
+# Configuração do snapper em /etc/snapper/configs
+
 SUBVOLUME="/"
 FSTYPE="btrfs"
 ALLOW_USERS=""
@@ -11,3 +13,6 @@ TIMELINE_LIMIT_DAILY="1"
 TIMELINE_LIMIT_WEEKLY="7"
 TIMELINE_LIMIT_MONTHLY="1"
 TIMELINE_LIMIT_YEARLY="0"
+
+
+
