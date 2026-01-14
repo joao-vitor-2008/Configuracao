@@ -2,10 +2,10 @@
 return {
   {
     "mfussenegger/nvim-jdtls",
-    ft = { "java, jsp" }, -- só carrega quando abrir arquivos Java
+    ft = { "java, jsp, html" }, -- só carrega quando abrir arquivos Java
     dependencies = {
       "mason-org/mason.nvim",
-      "williamboman/mason-lspconfig.nvim",
+      "mason-org/mason-lspconfig.nvim",
       "WhoIsSethDaniel/mason-tool-installer.nvim",
     },
     config = function()

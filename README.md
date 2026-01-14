@@ -1,18 +1,4 @@
-# Configuração do snapper em /etc/snapper/configs
+# 💤 LazyVim
 
-SUBVOLUME="/"
-FSTYPE="btrfs"
-ALLOW_USERS=""
-ALLOW_GROUPS="wheel"
-SYNC_ACL="no"
-
-TIMELINE_CREATE="yes"
-TIMELINE_CLEANUP="yes"
-TIMELINE_LIMIT_HOURLY="0"
-TIMELINE_LIMIT_DAILY="1"
-TIMELINE_LIMIT_WEEKLY="7"
-TIMELINE_LIMIT_MONTHLY="1"
-TIMELINE_LIMIT_YEARLY="0"
-
-
-
+A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
+Refer to the [documentation](https://lazyvim.github.io/installation) to get started.

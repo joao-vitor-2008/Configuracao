@@ -6,3 +6,7 @@ vim.keymap.set("v", "<leader>y", '"+y', { desc = "Yank selection to system clipb
 
 vim.keymap.set("n", "<leader>p", '"+p', { desc = "Paste from system clipboard" })
 vim.keymap.set("v", "<leader>p", '"+p', { desc = "Paste from system clipboard" })
+
+vim.keymap.set("n", "<leader>r", function()
+  vim.lsp.buf.rename()
+end, { desc = "LSP Rename" })
